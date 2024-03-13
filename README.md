@@ -1,4 +1,4 @@
-# django-todo-app
+### Note
 Please note that this is not a production ready app. It's just a sandbox app I am building to explore different Django features.
 
 ### Setup the local environment
@@ -15,7 +15,7 @@ python3 -m pip install factory-boy
 cd user_todo_list
 
 ```
-### Run database migrations
+### Run the database migrations
 ```
 python3 manage.py migrate
 ```
@@ -28,4 +28,10 @@ python3 manage.py createsuperuser
 
 ```
 python3 manage.py runserver
+```
+
+### Run the tests
+
+```
+pytest
 ```
